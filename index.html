@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script defer src="script.js"></script>
+    <link rel="icon" type="imagem/png" href="Snake-icon.png" />
+    <title>Snake Game</title>
+</head>
+<body>
+    <div class="container">
+        <div id="snakeGame"  class="snake-container">
+            <div id="headersnake" class="header-snake">
+            <img src="Snake-icon.png">
+            <h1>SNAKE GAME!</h1>
+            </div>
+            <div id="canvas" class="canvas-container">
+                <canvas id="snake" width="512" height="512" ></canvas>
+            </div>
+            <fieldset id="snake-score" class="score-container">
+                <legend>Pontuação</legend>
+                <div id="score">0</div>
+            </fieldset>
+            <div id="buttons" class="buttons-container" > 
+                <button type="button" onClick="pausa()" id="btpausar" class="button">Iniciar</button>
+                <button type="button" onClick="novoJogo()" id="btnovoJogo" class="button">Novo Jogo</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
