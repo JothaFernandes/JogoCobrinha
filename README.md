@@ -1,9 +1,8 @@
 # JogoCobrinha
-Repositório com desenvolvimento do jogo da snake game em javascript
+Repositório com desenvolvimento do jogo snake game em javascript e html
+o joguinho foi desenvolvido com base no videos da Digital Innovation One - @digitalinnovationone com Gabriela Pinheiro - @SpruceGabriela.
 
-Jogo desenvolvido com base no videos da Digital Innovation One de @gabrielaPinheiro.
-
-Foi acrescentado:
-*Estilização da página html
-*pontuação
-*Pausar e iniciar novo jogo
+* Foi acrescentado:
+   * Estilização da página html
+   * pontuação
+   * Pausar e iniciar novo jogo
